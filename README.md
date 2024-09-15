@@ -10,3 +10,12 @@ The architecture consists of several key components:
 * Channel Exchange Module: Exchanges features across the channel dimension, ensuring detailed feature-level comparisons.
 * Residual Blocks: Deep convolutional blocks for further feature extraction, followed by a ReLU activation and dropout for regularization.
 * Fully Connected Layer: Following global average pooling, the output is classified using a softmax activation to predict the likelihood of change or no change.
+
+![alt text](<Sample.png>)
+
+Test Procedure
+The test dataset is used to evaluate the model's final performance after training, where:
+
+
+* Test accuracy and loss are calculated.
+* Predicted and actual labels are saved for further analysis (e.g., confusion matrix generation).
